@@ -49,7 +49,8 @@ console.log(largestNum([1, 2, 6, 3]));
 // ------------------------------------------------------------------
 function uniqueArray(params) {
     let setArr = new Set(params);
-    return setArr;
+    let res = [...setArr]
+    return res;
 }
 
 console.log(uniqueArray([1, 1, 2, 2, 3, 4, 5, 5]));
